@@ -1,0 +1,109 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #0bf493b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    /* display: flex;
+    justify-content: center; */
+    height: 75vh;
+    width: 30vw;
+    text-align: center;
+    background: linear-gradient(to left, rgba(83, 232, 232, 0.918), rgba(36, 235, 116, 0.879) );
+    padding: 20px 30px;
+   
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 5px 5px ;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 15px;
+    background-color: #ffffffa0;
+    box-shadow: 2px 3px rgb(156, 156, 156);
+}
+
+.songimage{
+    height: 144px;
+    width: 153px;
+    border-radius: 50%;
+    box-shadow: 37px 30px 55px wheat;
+}
+
+.box h1{
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(65, 64, 64);
+}
+
+.box p{
+    font-weight: lighter;
+    font-size: medium;
+    font-family: sans-serif;
+    color: dimgray;
+}
+.duration{
+    -webkit-appearance: none;
+    background-color:#3d3d3d;
+    width: 100%;
+    height: 8px;
+    margin: 10px 5px;
+    border-radius: 15px;
+
+}
+#progress::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #4fffffec;
+    border-radius: 50%;
+    border:  10px solid  #3b3a3a ;
+    box-shadow: 0 5px 5px rgba(48, 51, 51, 0.979);
+}
+
+.controls
+    {
+    /* height: 40px;     */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50px;
+    margin-top: 5px;
+    padding: 5px;
+    gap: 10px;
+    filter: drop-shadow(4px 6px 10px gray);
+    background: linear-gradient(to right , rgba(0, 255, 170, 0.964), rgb(0, 255, 229)); */
+}
+.controls div{
+    width: 35px;
+    height: 30px;
+    margin: 20px;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: rgb(35, 35, 35);
+    box-shadow: 0 10px 20px rgb(23, 72, 56);
+    cursor: pointer;
+}
+
+.controls div:nth-child(2){
+    transform:scale(1.5) ;
+    background: #31f5cb;
+    color: #070707;
+}
